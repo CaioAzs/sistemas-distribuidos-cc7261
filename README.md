@@ -3,7 +3,7 @@
 
 # Diagrama de relações 
 
-![Image](https://github.com/user-attachments/assets/2896e384-881b-494b-9962-05802a1973d9)
+![Image](https://github.com/user-attachments/assets/666be52b-89c5-4e66-a700-976b346bae8a)
 
 ## 1. Padrões de Mensagem Utilizados
 
@@ -165,3 +165,65 @@
 * **Proxies:** Python (ZeroMQ)
 * **Broker:** Python (ZeroMQ)
 * **Comunicação:** ZeroMQ com padrões REQ/REP, PUB/SUB, ROUTER/DEALER
+
+````markdown
+## 7. Dependências e Requisitos de Execução
+
+### 7.1 Java (Cliente)  
+**Versão:** Java 8 ou superior  
+
+```xml
+<!-- Maven Dependencies (pom.xml) -->
+<dependencies>
+    <dependency>
+        <groupId>org.zeromq</groupId>
+        <artifactId>jeromq</artifactId>
+        <version>0.5.3</version>
+    </dependency>
+    <dependency>
+        <groupId>org.json</groupId>
+        <artifactId>json</artifactId>
+        <version>20230227</version>
+    </dependency>
+</dependencies>
+````
+
+### 7.2 Node.js (Servidor)
+
+**Versão:** Node.js 14 ou superior
+
+```json
+// package.json
+{
+  "dependencies": {
+    "zeromq": "^6.0.0-beta.19",
+    "uuid": "^9.0.0"
+  }
+}
+```
+
+**Instalação:**
+
+```bash
+npm install zeromq uuid
+```
+
+### 7.3 Python (Broker e Proxies)
+
+**Versão:** Python 3.7 ou superior
+
+**Instalação via pip:**
+
+```bash
+pip install pyzmq
+```
+
+### Portas Utilizadas
+
+* **5555:** Broker (clientes conectam)
+* **5556:** Broker (servidores conectam)
+* **5557:** Post Proxy (servidores publicam)
+* **5558:** Post Proxy (clientes subscrevem)
+* **6000:** Replication Proxy (servidores publicam)
+* **6001:** Replication Proxy (servidores subscrevem)
+
