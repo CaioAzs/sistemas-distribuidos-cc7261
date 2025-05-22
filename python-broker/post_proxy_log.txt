@@ -1,0 +1,17 @@
+2025-05-22 10:02:34,157 - post_proxy - INFO - === STARTING POST PUBLICATION PROXY ===
+2025-05-22 10:02:34,175 - post_proxy - INFO - XSUB socket bound to port 5557 (servers publish posts here)
+2025-05-22 10:02:34,175 - post_proxy - INFO - XPUB socket bound to port 5558 (clients subscribe here)
+2025-05-22 10:02:35,193 - post_proxy - INFO - Post proxy ready - starting post forwarding
+2025-05-22 10:02:35,193 - post_proxy - INFO - Architecture:
+2025-05-22 10:02:35,194 - post_proxy - INFO -    - Servers PUBLISH posts to port 5557
+2025-05-22 10:02:35,194 - post_proxy - INFO -    - Clients SUBSCRIBE to posts on port 5558
+2025-05-22 10:02:51,421 - post_proxy - INFO - New subscription #1: '1:'
+2025-05-22 10:02:51,421 - post_proxy - INFO - New subscription #2: '1:PM:'
+2025-05-22 10:02:52,945 - post_proxy - INFO - New subscription #3: '2:'
+2025-05-22 10:02:52,959 - post_proxy - INFO - New subscription #4: '2:PM:'
+2025-05-22 10:02:53,662 - post_proxy - INFO - New subscription #5: '3:'
+2025-05-22 10:02:53,673 - post_proxy - INFO - New subscription #6: '3:PM:'
+2025-05-22 10:02:54,301 - post_proxy - INFO - New subscription #7: '4:'
+2025-05-22 10:02:54,301 - post_proxy - INFO - New subscription #8: '4:PM:'
+2025-05-22 10:02:54,980 - post_proxy - INFO - New subscription #9: '5:'
+2025-05-22 10:02:54,988 - post_proxy - INFO - New subscription #10: '5:PM:'

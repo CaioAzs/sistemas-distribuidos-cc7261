@@ -1,0 +1,10 @@
+[2025-05-22 10:02:54] [CLOCK: 10:02:54] CLIENT 4 - CLIENT STARTED - Logical clock initialized at: 10:02:54
+[2025-05-22 10:02:54] [CLOCK: 10:02:54] CLIENT 4 - Connected to broker at: tcp://localhost:5555
+[2025-05-22 10:02:54] [CLOCK: 10:02:54] CLIENT 4 - Connected to subscriber at: tcp://localhost:5558
+[2025-05-22 10:02:54] [CLOCK: 10:02:54] CLIENT 4 - Subscribed to posts from user 4 (topic: '4:')
+[2025-05-22 10:02:54] [CLOCK: 10:02:54] CLIENT 4 - Subscribed to private messages (topic: '4:PM:')
+[2025-05-22 10:02:54] [CLOCK: 10:02:54] CLIENT 4 - Loading existing following relationships from server
+[2025-05-22 10:02:54] [CLOCK: 10:02:55] CLIENT 4 - Clock incremented to: 10:02:55
+[2025-05-22 10:02:54] [CLOCK: 10:02:55] CLIENT 4 - Requesting following list with timestamp: 10:02:55
+[2025-05-22 10:02:54] [CLOCK: 10:02:55] CLIENT 4 - Retrieved following list: 0 users
+[2025-05-22 10:02:54] [CLOCK: 10:02:55] CLIENT 4 - Loaded 0 existing following relationships: [4]

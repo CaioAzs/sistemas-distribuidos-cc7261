@@ -1,0 +1,8 @@
+2025-05-22 10:02:34,973 - replication_proxy - INFO - === STARTING REPLICATION PROXY ===
+2025-05-22 10:02:35,008 - replication_proxy - INFO - XSUB socket bound to port 6000 (servers publish here)
+2025-05-22 10:02:35,010 - replication_proxy - INFO - XPUB socket bound to port 6001 (servers subscribe here)
+2025-05-22 10:02:36,014 - replication_proxy - INFO - Replication proxy ready - starting message forwarding
+2025-05-22 10:02:36,014 - replication_proxy - INFO - Servers should:
+2025-05-22 10:02:36,014 - replication_proxy - INFO -    - PUBLISH replication data to port 6000
+2025-05-22 10:02:36,014 - replication_proxy - INFO -    - SUBSCRIBE to replication data on port 6001
+2025-05-22 10:02:38,718 - replication_proxy - INFO - New subscription #1: 'replication'
