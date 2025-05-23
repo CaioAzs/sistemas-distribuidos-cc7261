@@ -227,3 +227,10 @@ pip install pyzmq
 * **6000:** Replication Proxy (servidores publicam)
 * **6001:** Replication Proxy (servidores subscrevem)
 
+---
+
+# Execução
+
+```bash
+/scripts/start_all.bat
+```
