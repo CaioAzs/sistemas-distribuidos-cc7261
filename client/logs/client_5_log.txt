@@ -8,3 +8,13 @@
 [2025-05-22 10:02:54] [CLOCK: 10:02:55] CLIENT 5 - Requesting following list with timestamp: 10:02:55
 [2025-05-22 10:02:55] [CLOCK: 10:02:55] CLIENT 5 - Retrieved following list: 0 users
 [2025-05-22 10:02:55] [CLOCK: 10:02:55] CLIENT 5 - Loaded 0 existing following relationships: [5]
+[2025-05-22 22:27:23] [CLOCK: 22:27:23] CLIENT 5 - CLIENT STARTED - Logical clock initialized at: 22:27:23
+[2025-05-22 22:27:23] [CLOCK: 22:27:23] CLIENT 5 - Connected to broker at: tcp://localhost:5555
+[2025-05-22 22:27:23] [CLOCK: 22:27:23] CLIENT 5 - Connected to subscriber at: tcp://localhost:5558
+[2025-05-22 22:27:23] [CLOCK: 22:27:23] CLIENT 5 - Subscribed to posts from user 5 (topic: '5:')
+[2025-05-22 22:27:23] [CLOCK: 22:27:23] CLIENT 5 - Subscribed to private messages (topic: '5:PM:')
+[2025-05-22 22:27:23] [CLOCK: 22:27:23] CLIENT 5 - Loading existing following relationships from server
+[2025-05-22 22:27:23] [CLOCK: 22:27:24] CLIENT 5 - Clock incremented to: 22:27:24
+[2025-05-22 22:27:23] [CLOCK: 22:27:24] CLIENT 5 - Requesting following list with timestamp: 22:27:24
+[2025-05-22 22:27:23] [CLOCK: 22:27:24] CLIENT 5 - Retrieved following list: 0 users
+[2025-05-22 22:27:23] [CLOCK: 22:27:24] CLIENT 5 - Loaded 0 existing following relationships: [5]

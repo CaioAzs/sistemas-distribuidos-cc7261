@@ -12,3 +12,17 @@
 2025-05-22 10:02:54,333 - broker - INFO - Forwarded server message #4
 2025-05-22 10:02:54,997 - broker - INFO - Forwarded client message #5
 2025-05-22 10:02:55,012 - broker - INFO - Forwarded server message #5
+2025-05-22 22:27:03,055 - broker - INFO - Starting simple broker
+2025-05-22 22:27:03,060 - broker - INFO - Frontend bound to port 5555
+2025-05-22 22:27:03,082 - broker - INFO - Backend bound to port 5556
+2025-05-22 22:27:03,082 - broker - INFO - Broker ready for message routing (3 servers expected)
+2025-05-22 22:27:20,023 - broker - INFO - Forwarded client message #1
+2025-05-22 22:27:20,025 - broker - INFO - Forwarded server message #1
+2025-05-22 22:27:20,889 - broker - INFO - Forwarded client message #2
+2025-05-22 22:27:20,890 - broker - INFO - Forwarded server message #2
+2025-05-22 22:27:21,938 - broker - INFO - Forwarded client message #3
+2025-05-22 22:27:21,939 - broker - INFO - Forwarded server message #3
+2025-05-22 22:27:22,956 - broker - INFO - Forwarded client message #4
+2025-05-22 22:27:22,957 - broker - INFO - Forwarded server message #4
+2025-05-22 22:27:23,859 - broker - INFO - Forwarded client message #5
+2025-05-22 22:27:23,861 - broker - INFO - Forwarded server message #5
